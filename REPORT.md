@@ -19,4 +19,4 @@
 
 ![Шаг-15](img/image-2.png)
 
-![Шаг-16](img/image-2.png)
+![Шаг-16](img/image-3.png)

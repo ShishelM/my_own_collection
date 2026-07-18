@@ -1,0 +1,10 @@
+---
+- name: Тест роли из состава коллекции
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  roles:
+    - role: my_own_namespace.yandex_cloud_elk.file_creator
+      vars:
+        file_path: "/tmp/final_collection_test.txt"
+        file_content: "Checking role integration inside collection!"
